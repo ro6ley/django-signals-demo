@@ -43,8 +43,17 @@ $ pip install -r requirements.txt
 ```
 $ cd jobs_board
 
+$ python manage.py createsuperuser
+
 $ python manage.py runserver
 ```
+
+5. Log in to the admin dhasboard and populate Jobs at http://localhost:8000/admin
+
+6. Navigate to http://localhost:8000/jobs and subscribe
+
+7. Check the console for events logging
+
 
 ## Contribution
 
