@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jobs Board - {{ job.title }}</title>
+  </head>
+
+  <body>
+
+      <div>
+        <h3>{{ job.title }} at {{ job.company }}</h3>
+
+        <p>
+          {{ job.details }}
+        </p>
+        <br>
+        <p>Subscribe to this job posting by submitting your email</p>
+
+        <form action="/jobs/{{ job.id }}/subscribe" method="POST">
+          {%  csrf_token %}
+          <input type="email" name="email" id="email" placeholder="Enter your email"/>
+          <input type="submit" value="Subscribe">
+        </form>
+        <hr>
+
+      </div>
+
+  </body>
+</html>
