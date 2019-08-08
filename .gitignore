@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+**/*.pyc
+**/__pycache__
 *.py[cod]
 *$py.class
 
@@ -102,3 +103,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Don't include migrations
+**/migrations/
+
+# Exclude on MAC devices
+.DS_Store
+
+**/.sonarlint
+
+**/db.sqlite3
