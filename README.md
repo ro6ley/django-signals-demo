@@ -4,7 +4,7 @@
 
 A demo Django project showcasing the use of Django Signals
 
-This repository contains the code for this [blogpost]() on [StackAbuse](https://stackabuse.com/).
+This repository contains the code for this [blogpost](https://stackabuse.com/using-django-signals-to-simplify-and-decouple-code/) on [StackAbuse](https://stackabuse.com/).
 
 ## Getting Started
 
